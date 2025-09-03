@@ -16,6 +16,7 @@
 - Code changes must not introduce warnings or errors.
 - All files should be properly formatted before merging.
 
+
 ## Custom .editorconfig Naming Enforcement
 
 - All **private fields**, including `readonly` and `static`, MUST be prefixed with `_` (underscore) as per `.editorconfig` rules (`dotnet_naming_rule.private_fields_underscored`).

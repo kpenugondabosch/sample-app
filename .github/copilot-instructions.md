@@ -16,6 +16,14 @@
 - Code changes must not introduce warnings or errors.
 - All files should be properly formatted before merging.
 
+## Custom .editorconfig Naming Enforcement
+
+- All **private fields**, including `readonly` and `static`, MUST be prefixed with `_` (underscore) as per `.editorconfig` rules (`dotnet_naming_rule.private_fields_underscored`).
+- Pull request reviews should **explicitly highlight** and reject any code that does not comply, regardless of IDE or build warnings.
+- Example violation: `private readonly int value;`  
+  Correct: `private readonly int _value;`
+- This applies to all C# files in the repository.
+
 ---
 
 _This file provides custom instructions for Copilot to review pull requests in this repository. All .NET 8 Roslyn standards and .editorconfig rules must be enforced._

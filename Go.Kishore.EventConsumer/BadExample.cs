@@ -10,7 +10,7 @@ public class BadExample
         numbers.Add(2);
         numbers.Add(3);
 
-        // ❌ Bug 1: Division by zero (runtime error)
+        // ❌ Bug 1: Divisio by zero (runtime error)
         int result = 10 / (numbers.Count - 3);
         Console.WriteLine("Result: " + result);
 
@@ -27,5 +27,9 @@ public class BadExample
         // ❌ Bug 5: Hardcoded credentials
         string connectionString = "Server=localhost;User=admin;Password=12345;";
         Console.WriteLine("Connecting to DB with: " + connectionString);
+
+         // ❌ Bug 6: Hardcoded credentials1
+        string connectionString2 = "Server=localhost;User=admin;Password=12345;";
+        Console.WriteLine("Connecting to DB with: " + connectionString2);
     }
 }

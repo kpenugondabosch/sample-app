@@ -1,4 +1,4 @@
-namespace Go.Kishore.EventConsumer
+namespace Go.Mani.EventConsumer
 {
     
 using System;

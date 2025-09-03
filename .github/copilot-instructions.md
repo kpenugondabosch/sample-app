@@ -18,11 +18,8 @@
 
 ## Custom .editorconfig Naming Enforcement
 
-- All **private fields**, including `readonly` and `static`, MUST be prefixed with `_` (underscore) as per `.editorconfig` rules (`dotnet_naming_rule.private_fields_underscored`).
+- All namespace names should starts with Go.Kishore.
 - Pull request reviews should **explicitly highlight** and reject any code that does not comply, regardless of IDE or build warnings.
-- Example violation: `private readonly int value;`  
-  Correct: `private readonly int _value;`
-- This applies to all C# files in the repository.
 
 ---
 

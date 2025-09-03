@@ -1,7 +1,7 @@
-namespace Go.Kishore.EventConsumer
+namespace Go.Kishore.Domain
 {
   public class User 
   {
-    public string userName {get; set;}
+    public string UserName {get; set;}
   }
 }
